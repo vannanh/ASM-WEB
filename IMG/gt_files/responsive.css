@@ -1,0 +1,2253 @@
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 10, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .header .main-header .menu.container {
+    width: calc(100% - 50px); } }
+
+@media screen and (min-width: 961px) and (max-width: 1200px) {
+  /* line 22, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro .material .spices .title1,
+  .intro .material .spices .title2,
+  .intro .material .spices .title3 {
+    position: relative; }
+    /* line 24, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .intro .material .spices .title1:after,
+    .intro .material .spices .title2:after,
+    .intro .material .spices .title3:after {
+      position: absolute;
+      content: "";
+      bottom: 100%;
+      border-left: 1px solid #dadada; }
+    /* line 30, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .intro .material .spices .title1:before,
+    .intro .material .spices .title2:before,
+    .intro .material .spices .title3:before {
+      content: "";
+      position: absolute;
+      border-bottom: 1px solid #dadada; }
+  /* line 37, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro .material .spices .title1:after {
+    left: 20%;
+    height: 80px;
+    bottom: calc(100% + 20px); }
+  /* line 42, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro .material .spices .title1:before {
+    left: 20%;
+    width: 45px;
+    bottom: calc(100% + 100px); }
+  /* line 47, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro .material .spices .title2:after {
+    right: 0%;
+    bottom: 50%;
+    height: 100px; }
+  /* line 52, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro .material .spices .title2:before {
+    width: 60px;
+    bottom: 50%;
+    left: 59%; } }
+
+@media screen and (max-width: 1200px) {
+  /* line 66, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .process-section .item11 .img-item11 {
+    width: 30%;
+    top: -30%; }
+  /* line 74, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner {
+    padding: 0 10%; }
+  /* line 80, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .info-left {
+    padding: 0 9% 0 0%; }
+  /* line 83, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .info-right {
+    padding: 0 0% 0 8%; }
+  /* line 92, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .preserved-intro-wrap .preserved-desc {
+    padding: 0 20px; }
+  /* line 97, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .step-wrap .step-item:after {
+    border-right: 0; }
+  /* line 105, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .processing-wrap .preserved-desc {
+    padding: 0 20px; } }
+
+@media screen and (max-width: 1024px) {
+  /* line 115, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner {
+    top: 0;
+    padding: 0 10px; }
+  /* line 119, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-2 {
+    left: 10px; } }
+
+@media screen and (max-width: 999px) {
+  /* line 129, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .title {
+    font-size: 40px;
+    line-height: 48px; }
+  /* line 133, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .banner-desc {
+    margin: 5px 0; } }
+
+@media screen and (max-width: 1080px) {
+  /* line 146, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .header .main-header .sub-menu .width-20-percen {
+    width: 15%; } }
+
+@media screen and (max-width: 1050px) {
+  /* line 159, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .header .main-header .menu .main-menu {
+    height: 100px; }
+    /* line 161, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .header .main-header .menu .main-menu li {
+      height: 100px; } 
+      .header .main-header .menu .main-menu .ul-main-menu li.li-main {
+        padding-bottom: 64px;
+      } }
+
+@media screen and (max-width: 960px) {
+  /* line 174, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro .material .spices .title1:after {
+    left: 20%;
+    height: 80px;
+    bottom: calc(100% + 20px); }
+  /* line 179, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro .material .spices .title1:before {
+    left: 20%;
+    width: 45px;
+    bottom: calc(100% + 100px); }
+  /* line 184, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro .material .spices .title2:after {
+    right: 0%;
+    bottom: 50%;
+    height: 100px; }
+  /* line 189, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro .material .spices .title2:before {
+    width: 84px;
+    bottom: 50%;
+    left: 59%; } }
+
+@media screen and (max-width: 1024px) {
+  .control-section .control-intro-wrap .item .desc {
+  min-height: 240px; }
+}
+
+@media screen and (max-width: 992px) {
+  /* line 201, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .about-type-product-img .title {
+    font-size: 20px; }
+  /* line 204, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .step-menu {
+    right: 2%; }
+  /* line 209, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .title {
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0 18px; }
+  /* line 214, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-desc {
+    text-align: center;
+    padding: 0 10%;
+    margin-bottom: 40px; }
+    /* line 218, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-desc i {
+      width: 100%;
+      display: inline-block;
+      font-family: "Geomanist Medium";
+      font-size: 14px;
+      margin: 28px 0 14px; }
+  /* line 226, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-intro-wrap {
+    padding-bottom: 140px; }
+    /* line 229, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-intro-wrap .title-wrap {
+      background: transparent url(../images/kiemsoatsanxuat/bg-desc.png) no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 60%;
+      margin: auto;
+      margin-top: 10%;
+      padding: 38px 0; }
+      /* line 237, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .title-wrap .title {
+        margin: 0; }
+    /* line 241, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-intro-wrap .desc {
+      text-align: center;
+      padding: 0 10%; }
+    /* line 245, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-intro-wrap .item {
+      background-color: #fff; }
+      /* line 248, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .item .img-box {
+        padding: 24px 0 22px; }
+        /* line 250, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .laboratory-section .laboratory-intro-wrap .item .img-box img {
+          margin: auto; }
+      /* line 256, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .item .desc {
+        min-height: 180px;
+        padding: 0 20px 20px; }
+  /* line 262, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-procedure-wrap {
+    padding-bottom: 90px; }
+    /* line 264, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-procedure-wrap .title {
+      margin-top: 69px;
+      margin-bottom: 54px; }
+    /* line 268, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-procedure-wrap .desc {
+      text-align: center;
+      padding: 0 26%;
+      margin-bottom: 61px; }
+    /* line 273, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap {
+      padding-bottom: 54px;
+      margin: 0; }
+      /* line 276, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap li {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        font-family: "Geomanist Medium";
+        font-size: 14px; }
+        /* line 281, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap li span {
+          float: left;
+          width: 50px;
+          height: 50px;
+          border: 2px solid #fa0001;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          text-align: center;
+          color: #fa0001;
+          font-family: "Geomanist Medium";
+          font-size: 25px;
+          line-height: 47px;
+          margin-right: 29px; }
+        /* line 296, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap li p {
+          padding-top: 16px;
+          margin-left: 60px; }
+  /* line 307, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .col-xs-12, .laboratory-section .laboratory-product-wrap .col-sm-6, .laboratory-section .laboratory-product-wrap .col-md-6, .laboratory-section .laboratory-product-wrap .col-lg-6 {
+    padding: 0; }
+  /* line 310, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .title {
+    font-size: 40px;
+    margin: 0; }
+  /* line 314, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .info {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    padding: 0 20%;
+    background: transparent url(../images/kiemsoatsanxuat/bg-desc.png) no-repeat;
+    background-position: center;
+    background-size: contain; }
+  /* line 324, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .desc {
+    font-family: "Geomanist Medium";
+    padding: 0 0%;
+    text-align: center;
+    margin-bottom: 53px; }
+  /* line 330, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .item {
+    position: relative; }
+  /* line 340, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .title {
+    text-align: center;
+    font-size: 40px;
+    margin: 100px 0 8px; }
+  /* line 345, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .control-desc {
+    text-align: center;
+    padding: 0 10%;
+    margin-bottom: 50px; }
+  /* line 350, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .control-intro-wrap {
+    padding-bottom: 30px; }
+    /* line 353, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-intro-wrap .title-wrap {
+      background: transparent url(../images/kiemsoatsanxuat/bg-desc.png) no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 50%;
+      margin: auto;
+      margin-top: 10px;
+      padding: 38px 0; }
+      /* line 361, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .control-section .control-intro-wrap .title-wrap .title {
+        margin: 0; }
+    /* line 365, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-intro-wrap .desc {
+      text-align: center;
+      padding: 0 17%; }
+    /* line 369, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-intro-wrap .item {
+      background-color: #fff; }
+      /* line 372, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .control-section .control-intro-wrap .item .img-box {
+        padding: 24px 0 22px; }
+        /* line 374, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .control-section .control-intro-wrap .item .img-box img {
+          margin: auto; }
+      /* line 380, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .control-section .control-intro-wrap .item .desc {
+        min-height: 320px;
+        padding: 0 20px 20px; }
+  /* line 387, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .control-procedure-wrap .title {
+    margin-top: 45px;
+    margin-bottom: 5px; }
+  /* line 391, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .control-procedure-wrap .desc {
+    text-align: center;
+    padding: 0 21%;
+    margin-bottom: 61px; }
+  /* line 396, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .control-procedure-wrap .control-list-wrap {
+    padding-bottom: 54px;
+    margin: 0; }
+    /* line 399, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-procedure-wrap .control-list-wrap li {
+      float: left;
+      width: 100%;
+      margin-bottom: 10px;
+      font-family: "Geomanist Medium";
+      font-size: 14px; }
+      /* line 404, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .control-section .control-procedure-wrap .control-list-wrap li span {
+        float: left;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #fa0001;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        text-align: center;
+        color: #fa0001;
+        font-family: "Geomanist Medium";
+        font-size: 25px;
+        line-height: 47px;
+        margin-right: 29px; }
+      /* line 420, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .control-section .control-procedure-wrap .control-list-wrap li p {
+        padding-top: 16px;
+        margin-left: 60px; }
+  /* line 430, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .control-product-wrap {
+    background-color: #efefef; }
+    /* line 431, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-product-wrap .title {
+      margin-top: 47px;
+      margin-bottom: 5px; }
+    /* line 436, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-product-wrap .desc {
+      padding: 0 17%;
+      text-align: center;
+      margin-bottom: 53px; }
+    /* line 442, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-product-wrap .item .title {
+      font-family: "Geomanist Medium";
+      font-size: 14px;
+      margin: 26px 0 48px; }
+  /* line 450, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .cultural-section-details .side-bar {
+    border-top: 1px solid #a4a4a4;
+    margin-top: 28px;
+    padding-top: 25px; }
+  /* line 455, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .cultural-section-details .side-bar .item {
+    float: left;
+    width: 32%;
+    margin-right: 2%; }
+    /* line 459, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section-details .side-bar .item:last-child {
+      margin-right: 0; }
+  /* line 464, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .info-left {
+    padding: 0 9% 0 0%; }
+  /* line 467, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .info-right {
+    padding: 0 0% 0 8%; }
+  /* line 476, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .preserved-intro-wrap .preserved-desc {
+    padding: 0 20px; }
+  /* line 481, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .step-wrap .step-item:after {
+    border-right: 0; }
+  /* line 489, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .processing-wrap .preserved-desc {
+    padding: 0 20px; }
+  /* line 499, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro .material .spices .title1:after {
+    left: 20%;
+    height: 80px;
+    bottom: calc(100% + 20px); }
+  /* line 504, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro .material .spices .title1:before {
+    left: 20%;
+    width: 100px;
+    bottom: calc(100% + 100px); }
+  /* line 509, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro .material .spices .title2:after {
+    right: 0%;
+    bottom: 50%;
+    height: 100px; }
+  /* line 514, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro .material .spices .title2:before {
+    width: 83px;
+    bottom: 50%;
+    left: 59%; }
+  /* line 524, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-wrap .title {
+    /*padding-left: 55%;*/ }
+  /* line 529, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-procedure .intro-procedure-wrap .title {
+    padding: 0 10% 30px; }
+  /* line 532, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-procedure .intro-procedure-wrap .brand-title {
+    font-size: 160px; }
+  /* line 540, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .footer-wrap .logo img {
+    margin: auto; }
+  /* line 544, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .footer-wrap .copy-right {
+    text-align: center; }
+  /* line 549, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .list-footer,
+  .footer .list-social {
+    text-align: center; } }
+
+@media screen and (max-width: 930px) {
+  /* line 555, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-intro-wrap .title-wrap {
+    width: 70%; } }
+
+@media screen and (max-width: 840px) {
+  /* line 561, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .info {
+    padding: 0 5%; }
+  /* line 567, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .title {
+    font-size: 40px;
+    line-height: 48px; }
+  /* line 571, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .banner-desc {
+    margin: 5px 0; }
+  /* line 575, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-2 {
+    left: 0;
+    top: -160px;
+    z-index: 99999; }
+  /* line 580, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-1 {
+    width: 235px; } }
+
+@media screen and (max-width: 830px) {
+  /* line 590, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-2 {
+    left: 0;
+    top: -170px;
+    z-index: 99999; }
+  /* line 597, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-1 {
+    width: 235px; } }
+
+@media screen and (max-width: 800px) {
+  /* line 606, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-2 {
+    width: 180px; }
+  /* line 609, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-1 {
+    width: 210px; } }
+
+@media screen and (min-width: 768px) {
+	.gsc-control-cse{width:100%}
+  /* line 696, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .float-right {
+    width: 50% !important;
+    float: right !important; }
+  /* line 700, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-2 {
+    width: 170px; }
+  /* line 703, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-1 {
+    width: 206px; } }
+
+@media screen and (max-width: 767px) {
+  /* line 712, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .contact-section .title {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    font-size: 40px; }
+  /* line 717, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .contact-section .info {
+    font-family: "Geomanist Medium";
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 56px; }
+  /* line 724, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .contact-section .form-wrap .noti {
+    font-family: "Geomanist Regular";
+    font-size: 12px;
+    margin: 20px 0 10px 6px; }
+  /* line 729, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .contact-section .form-wrap label {
+    margin-top: 14px;
+    font-family: "Geomanist Regular";
+    font-size: 14px; }
+  /* line 734, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .contact-section .form-wrap span {
+    color: #fa0001; }
+  /* line 737, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .contact-section .form-wrap input {
+    width: 100%; }
+  /* line 741, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .contact-section .form-wrap textarea {
+    width: 100%;
+    resize: none; }
+  /* line 745, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .contact-section .form-wrap select {
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none; }
+  /* line 750, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .contact-section .form-wrap .form-controls {
+    position: relative; }
+    /* line 753, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .contact-section .form-wrap .form-controls:after {
+      content: "\f107";
+      position: absolute;
+      font-family: "FontAwesome";
+      top: 4px;
+      right: 12px;
+      font-size: 21px;
+      font-weight: bold;
+      pointer-events: none;
+      color: #fa0001; }
+  /* line 767, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .contact-section .form-wrap input,
+  .contact-section .form-wrap select,
+  .contact-section .form-wrap textarea {
+    padding: 10px;
+    outline: none;
+    font-size: 14px;
+    color: #2f2f2f;
+    border: 1px solid #fafafa;
+    background-color: #fafafa;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px 0 #e1e1e1; }
+  /* line 780, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .contact-section .form-wrap img {
+    float: left; }
+  /* line 783, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .contact-section .form-wrap .btn-send {
+    font-family: "Geomanist Bold";
+    font-size: 15px;
+    color: #fa0001;
+    background: #fff;
+    border: 2px solid #fa0001;
+    border-radius: 40px;
+    padding: 10px 50px;margin-top: 20px;
+    float: right; }
+  /* line 799, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .regulations-section .title {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 13px; }
+  /* line 804, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .regulations-section .info {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 35px; }
+  /* line 810, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .regulations-section .item {
+    margin-bottom: 60px; }
+    /* line 814, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .regulations-section .item .info-item .desc {
+      text-align: justify;
+      font-size: 17px;
+      margin-bottom: 8px; }
+  /* line 827, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .border-sm {
+    border-bottom: 1px solid #a4a4a4; }
+  /* line 830, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .title {
+    text-align: center;
+    font-size: 36px;
+    margin: 31px 0 14px; }
+  /* line 835, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-desc {
+    font-size: 17px;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 29px; }
+    /* line 840, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-desc i {
+      width: 100%;
+      display: inline-block;
+      font-family: "Geomanist Medium";
+      font-size: 17px;
+      margin: 24px 0 23px; }
+  /* line 848, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-intro-wrap {
+    padding-bottom: 34px; }
+    /* line 851, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-intro-wrap .title-wrap {
+      background: transparent url(../images/kiemsoatsanxuat/bg-desc.png) no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 100%;
+      margin-top: 27px;
+      margin-bottom: 8px;
+      padding: 0px 20px; }
+      /* line 859, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .title-wrap .title {
+        margin: 0; }
+    /* line 863, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-intro-wrap .desc {
+      font-size: 17px;
+      text-align: center;
+      padding: 0 20px;
+      margin-bottom: 21px; }
+      /* line 868, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .desc b {
+        margin: 15px 0;
+        display: inline-block; }
+    /* line 873, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-intro-wrap .item {
+      background-color: #fff; }
+      /* line 876, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .item .img-box {
+        padding: 24px 0 22px; }
+        /* line 878, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .laboratory-section .laboratory-intro-wrap .item .img-box img {
+          margin: auto; }
+      /* line 884, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .item .desc {
+        min-height: 180px;
+        padding: 0 20px 20px; }
+  /* line 890, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-procedure-wrap {
+    padding-bottom: 38px; }
+    /* line 892, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-procedure-wrap .title {
+      margin-top: 31px;
+      margin-bottom: 14px; }
+    /* line 896, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-procedure-wrap .desc {
+      text-align: center;
+      padding: 0 26%;
+      margin-bottom: 61px; }
+    /* line 901, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap {
+      padding-bottom: 54px;
+      margin: 23px 0 0; }
+      /* line 905, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap li {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        font-family: "Geomanist Medium";
+        font-size: 14px; }
+        /* line 910, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap li span {
+          float: left;
+          width: 50px;
+          height: 50px;
+          border: 2px solid #fa0001;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          text-align: center;
+          color: #fa0001;
+          font-family: "Geomanist Medium";
+          font-size: 25px;
+          line-height: 47px;
+          margin-right: 29px; }
+        /* line 925, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap li p {
+          font-size: 17px;
+          padding-top: 16px;
+          margin-left: 60px; }
+  /* line 936, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .col-xs-12, .laboratory-section .laboratory-product-wrap .col-sm-6, .laboratory-section .laboratory-product-wrap .col-md-6, .laboratory-section .laboratory-product-wrap .col-lg-6 {
+    padding: 0; }
+  /* line 939, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .title {
+    font-size: 35px;
+    margin: 0; }
+  /* line 943, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .info {
+    margin: 36px 0 22px;
+    position: static;
+    padding: 0 20px;
+    background: #fff; }
+  /* line 950, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .desc {
+    margin-top: 17px;
+    font-family: "Geomanist Medium";
+    padding: 0 21%;
+    text-align: center;
+    margin-bottom: 22px; }
+  /* line 957, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .item {
+    position: relative; }
+    /* line 961, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-product-wrap .item .img-box img {
+      width: 90%;
+      margin: auto; }
+  /* line 968, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .staff {
+    padding-bottom: 55px; }
+    /* line 970, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-product-wrap .staff .desc {
+      padding: 0 14%; }
+  /* line 978, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .border-sm {
+    border-bottom: 1px solid #a4a4a4; }
+  /* line 981, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .title {
+    font-size: 36px;
+    margin: 27px 0 7px; }
+  /* line 985, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .control-desc {
+    font-size: 17px;
+    text-align: center;
+    padding: 0px 0px;
+    margin-bottom: 37px; }
+  /* line 991, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .control-intro-wrap {
+    padding-bottom: 36px; }
+    /* line 994, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-intro-wrap .title-wrap {
+      background: transparent url(../images/kiemsoatsanxuat/bg-desc.png) no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 100%;
+      margin: auto;
+      margin-top: 10px;
+      padding: 12px 20px; }
+      /* line 1002, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .control-section .control-intro-wrap .title-wrap .title {
+        margin: 0 0 5px; }
+    /* line 1006, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-intro-wrap .desc {
+      text-align: center;
+      padding: 0 17%;
+      font-size: 17px; }
+    /* line 1011, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+
+    .control-section .control-intro-wrap .item {
+          margin-top: 30px;
+      background-color: #fff; }
+      /* line 1014, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .control-section .control-intro-wrap .item .img-box {
+        float: left;
+        width: 100px;
+        padding: 0px 0 0px; }
+        /* line 1018, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .control-section .control-intro-wrap .item .img-box img {
+          margin: auto; }
+      /* line 1024, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .control-section .control-intro-wrap .item .desc {
+        font-size: 17px;
+        overflow: hidden;
+        text-align: left;
+        min-height: auto;
+        padding: 0px; }
+  /* line 1033, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .control-procedure-wrap {
+    padding-bottom: 50px; }
+    /* line 1035, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-procedure-wrap .title {
+      margin-top: 31px;
+      margin-bottom: 5px; }
+    /* line 1039, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-procedure-wrap .desc {
+      font-size: 17px;
+      text-align: center;
+      padding: 0 20px;
+      margin-bottom: 31px; }
+    /* line 1045, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-procedure-wrap .control-list-wrap {
+      padding-bottom: 54px;
+      margin: 0; }
+      /* line 1048, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .control-section .control-procedure-wrap .control-list-wrap li {
+        margin-bottom: 10px;
+        font-family: "Geomanist Medium";
+        font-size: 17px; }
+        /* line 1052, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .control-section .control-procedure-wrap .control-list-wrap li span {
+          width: 50px;
+          height: 50px;
+          display: inline-block;
+          border: 2px solid #fa0001;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          text-align: center;
+          color: #fa0001;
+          font-family: "Geomanist Medium";
+          font-size: 25px;
+          line-height: 47px;
+          margin-right: 10px; }
+        /* line 1067, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .control-section .control-procedure-wrap .control-list-wrap li p {
+          padding-top: 0px; }
+  /* line 1076, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .control-product-wrap {
+    background-color: #efefef; }
+    /* line 1077, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-product-wrap .title {
+      margin-top: 47px;
+      margin-bottom: 5px; }
+    /* line 1082, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-product-wrap .desc {
+      font-size: 17px;
+      padding: 0 20px;
+      text-align: center;
+      margin-bottom: 34px; }
+    /* line 1089, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-product-wrap .item .title {
+      font-family: "Geomanist Medium";
+      font-size: 17px;
+      margin: 23px 0 28px; }
+    /* line 1094, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .control-section .control-product-wrap .item img {
+      margin: auto; }
+  /* line 1101, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-2 {
+    width: 150px; }
+  /* line 1104, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-1 {
+    width: 170px; }
+  /* line 1109, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .cultural-section .filter-list {
+    padding: 0 20px;
+    text-align: left;
+    margin: 13px 0 23px; }
+    /* line 1113, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section .filter-list li {
+      margin-top: 9px;
+      margin-bottom: 9px; }
+      /* line 1116, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section .filter-list li a {
+        font-size: 16px; }
+  /* line 1122, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .cultural-section .filter-wrap .item {
+    margin-bottom: 0; }
+    /* line 1125, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section .filter-wrap .item:nth-child(even) .item-wrap {
+      background-color: #fff; }
+    /* line 1129, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section .filter-wrap .item .item-wrap {
+      position: relative; }
+      /* line 1132, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section .filter-wrap .item .item-wrap img {
+        position: absolute;
+        top: 31%;
+        left: 20px;
+        width: 195px; }
+      /* line 1138, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section .filter-wrap .item .item-wrap .info {
+        display: inline-block;
+        padding: 0 20px; }
+        /* line 1141, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .cultural-section .filter-wrap .item .item-wrap .info .title {
+          font-size: 24px;
+          margin: 15px 0 5px; }
+        /* line 1145, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .cultural-section .filter-wrap .item .item-wrap .info p {
+          min-height: 88px;
+          font-size: 16px;
+          margin-bottom: 5px;
+          padding-left: 210px; }
+        /* line 1151, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .cultural-section .filter-wrap .item .item-wrap .info .cate {
+          font-size: 17px;
+          margin-left: 210px; }
+  /* line 1163, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .cultural-section .col-xs-12,
+  .cultural-section .col-sm-6,
+  .cultural-section .col-md-4,
+  .cultural-section .col-lg-4,
+  .cultural-section .container {
+    padding-left: 0;
+    padding-right: 0; }
+  /* line 1170, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .cultural-section-details {
+    padding-bottom: 72px;
+    margin-top: 30px; }
+    /* line 1173, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section-details .title-details {
+      font-size: 27px;
+      margin: 0 0 14px; }
+    /* line 1177, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section-details .like-share {
+      font-family: "Geomanist Medium";
+      font-size: 14px; }
+      /* line 1180, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .like-share ul {
+        margin: 0; }
+        /* line 1183, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .cultural-section-details .like-share ul li {
+          border-right: 1px solid #ededed;
+          display: inline-block;
+          padding-right: 20px; }
+          /* line 1186, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+          .cultural-section-details .like-share ul li i {
+            color: #c5c5c5; }
+          /* line 1190, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+          .cultural-section-details .like-share ul li:last-child {
+            padding-left: 14px;
+            border-right: none; }
+        /* line 1197, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .cultural-section-details .like-share ul .like-count .icon {
+          margin: 0 5px;
+          display: inline-block;
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          color: #fff;
+          background-color: #c5c5c5;
+          text-align: center;
+          line-height: 28px; }
+        /* line 1209, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .cultural-section-details .like-share ul .like-count i {
+          color: #fff; }
+        /* line 1217, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .cultural-section-details .like-share ul .share-wrap .icon {
+          margin-right: 10px;
+          display: inline-block;
+          width: 28px;
+          height: 28px;
+          border-radius: 50%;
+          color: #fff;
+          background-color: #c5c5c5;
+          text-align: center;
+          line-height: 28px; }
+          /* line 1228, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+          .cultural-section-details .like-share ul .share-wrap .icon:first-child {
+            margin-left: 10px; }
+          /* line 1231, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+          .cultural-section-details .like-share ul .share-wrap .icon i {
+            color: #fff; }
+    /* line 1238, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section-details .content-details {
+      padding-bottom: 30px; }
+      /* line 1240, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .content-details .description {
+        margin: 15px 0;
+        font-size: 16px; }
+      /* line 1244, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .content-details p {
+        font-size: 16px;
+        margin: 0 0 15px; }
+      /* line 1248, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .content-details .strong {
+        font-size: 16px;
+        margin-bottom: 16px; }
+      /* line 1252, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .content-details img {
+        margin: auto;
+        margin-bottom: 17px; }
+    /* line 1258, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section-details .comment {
+      margin-top: 39px; }
+      /* line 1259, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .comment .img-box {
+        width: 72px; }
+      /* line 1262, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .comment .comment-count {
+        font-size: 18px; }
+      /* line 1269, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .comment .comment-wrap .form-comment textarea {
+        font-size: 16px; }
+      /* line 1273, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .comment .comment-wrap .form-comment .btn-send {
+        font-size: 15px; }
+      /* line 1278, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .comment .comment-wrap .name {
+        font-size: 16px; }
+      /* line 1282, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .comment .comment-wrap .desc {
+        font-size: 16px; }
+      /* line 1285, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .comment .comment-wrap .date {
+        font-size: 16px;
+        margin: 0;
+        color: #c5c5c5; }
+      /* line 1291, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .comment .comment-wrap-list {
+        margin-top: 34px; }
+    /* line 1295, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section-details .side-bar {
+      border-top: 1px solid #a4a4a4;
+      margin-top: 28px;
+      padding-top: 25px; }
+      /* line 1299, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .side-bar .side-bar-title {
+        font-size: 25px;
+        margin: 0 0 30px; }
+      /* line 1303, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .side-bar .item {
+        float: left;
+        width: 32%;
+        margin-right: 2%; }
+        /* line 1307, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .cultural-section-details .side-bar .item:last-child {
+          margin-right: 0; }
+        /* line 1310, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .cultural-section-details .side-bar .item .item-wrap {
+          background-color: #fff; }
+          /* line 1312, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+          .cultural-section-details .side-bar .item .item-wrap .info {
+            padding: 0px; }
+            /* line 1314, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+            .cultural-section-details .side-bar .item .item-wrap .info .title {
+              display: none;
+              font-size: 25px;
+              margin: 23px 0 5px; }
+            /* line 1320, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+            .cultural-section-details .side-bar .item .item-wrap .info .desc {
+              padding-top: 18px;
+              font-family: "Geomanist Medium";
+              font-size: 16px;
+              margin-bottom: 27px;
+              display: block;
+              display: -webkit-box;
+              -webkit-line-clamp: 4;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+            /* line 1333, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+            .cultural-section-details .side-bar .item .item-wrap .info .cate {
+              display: none;
+              font-family: "Geomanist Medium";
+              font-size: 15px;
+              color: #2f2f2f;
+              margin-bottom: 28px; }
+  /* line 1348, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .qa-content {
+    padding: 20px 0 0; }
+    /* line 1349, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .title {
+      font-size: 25px; }
+    /* line 1352, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .result-wrap .list-question li a {
+      font-size: 17px; }
+    /* line 1356, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .result-wrap .title-cate p {
+      font-size: 19px; }
+    /* line 1359, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .result-wrap .count {
+      font-size: 16px; }
+    /* line 1364, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .result-wrap .pop-question .title,
+    .qa-content .result-wrap .orther-question .title {
+      font-size: 25px; }
+    /* line 1370, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .search-qa-mobile {
+      margin-bottom: 25px; }
+    /* line 1373, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .cate-title {
+      margin: 0 0 20px;
+      font-size: 18px; }
+    /* line 1378, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .ul-cate li {
+      padding: 5px 0;
+      border: none; }
+      /* line 1380, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .qa-content .ul-cate li a {
+        font-size: 17px; }
+        /* line 1382, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .qa-content .ul-cate li a p {
+          padding: 5px 0 0 10px; }
+      /* line 1388, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .qa-content .ul-cate li .img-box img {
+        width: 31px; }
+    /* line 1396, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .search-form input::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      font-family: "Geomanist Regular";
+      font-size: 17px;
+      color: #2f2f2f; }
+    /* line 1402, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .search-form input::-moz-placeholder {
+      /* Firefox 19+ */
+      font-family: "Geomanist Regular";
+      font-size: 17px;
+      color: #2f2f2f; }
+    /* line 1407, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .search-form input:-ms-input-placeholder {
+      /* IE 10+ */
+      font-family: "Geomanist Regular";
+      font-size: 17px;
+      color: #2f2f2f; }
+    /* line 1412, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .search-form input:-moz-placeholder {
+      /* Firefox 18- */
+      font-family: "Geomanist Regular";
+      font-size: 17px;
+      color: #2f2f2f; }
+    /* line 1420, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .comment {
+      margin-top: 0;
+      padding-top: 30px;
+      border-top: 1px solid #a4a4a4; }
+    /* line 1426, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .pagination-wrap .pagination-list {
+      margin-bottom: 35px;
+      margin-top: 30px; }
+    /* line 1431, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .vote .desc {
+      font-size: 16px; }
+    /* line 1436, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .rela-question .title {
+      font-size: 25px; }
+    /* line 1441, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .rela-question ul li a {
+      font-size: 16px; }
+    /* line 1449, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content
+.content-wrap strong, .qa-content
+.content-wrap p {
+      font-size: 16px; }
+  /* line 1455, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .break-crumb a {
+    font-size: 16px; }
+  /* line 1461, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .info-left,
+  .preserved-section .info-right {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0 20px;
+    text-align: left; }
+    /* line 1466, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .preserved-section .info-left .img-box,
+    .preserved-section .info-right .img-box {
+      float: left;
+      padding-right: 30px; }
+    /* line 1470, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .preserved-section .info-left .info,
+    .preserved-section .info-right .info {
+      overflow: hidden; }
+  /* line 1476, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .preserved-intro-wrap .preserved-desc {
+    padding: 0px 5%; }
+  /* line 1480, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .step-wrap {
+    padding: 0 20px; }
+    /* line 1482, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .preserved-section .step-wrap .step-item:after {
+      border-right: none; }
+  /* line 1486, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .footer-desc {
+    padding: 0 20px;
+    margin: 40px 0 40px; }
+  /* line 1491, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .processing-wrap .preserved-desc {
+    padding: 0 20px; }
+  /* line 1498, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner {
+    top: 5%;
+    padding: 0 10%; }
+    /* line 1500, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .banner .banner-process .intro-banner .title {
+      font-size: 40px;
+      line-height: 50px; }
+    /* line 1504, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .banner .banner-process .intro-banner .banner-desc {
+      font-size: 16px;
+      padding: 0px 10%;
+      margin: 20px 0; }
+  /* line 1512, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .alert-scroll p {
+    color: #fff; }
+  /* line 1520, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-1 {
+    width: 120px;
+    top: -160px; }
+  /* line 1524, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-2 {
+    width: 104px;
+    top: -150px; }
+  /* line 1529, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .process-section .item14 {
+    margin-bottom: 60px; }
+  /* line 1532, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .process-section .item1, .process-section .item2, .process-section .item3, .process-section .item4, .process-section .item5, .process-section .item6, .process-section .item7, .process-section .item8, .process-section .item9, .process-section .item10, .process-section .item11, .process-section .item12, .process-section .item13, .process-section .item14 {
+    padding: 0 24px; }
+    /* line 1534, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .process-section .item1 .info, .process-section .item2 .info, .process-section .item3 .info, .process-section .item4 .info, .process-section .item5 .info, .process-section .item6 .info, .process-section .item7 .info, .process-section .item8 .info, .process-section .item9 .info, .process-section .item10 .info, .process-section .item11 .info, .process-section .item12 .info, .process-section .item13 .info, .process-section .item14 .info {
+      width: 100%;
+      margin: 28px 0 0;
+      padding: 0; }
+      /* line 1539, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .process-section .item1 .info p:first-child, .process-section .item2 .info p:first-child, .process-section .item3 .info p:first-child, .process-section .item4 .info p:first-child, .process-section .item5 .info p:first-child, .process-section .item6 .info p:first-child, .process-section .item7 .info p:first-child, .process-section .item8 .info p:first-child, .process-section .item9 .info p:first-child, .process-section .item10 .info p:first-child, .process-section .item11 .info p:first-child, .process-section .item12 .info p:first-child, .process-section .item13 .info p:first-child, .process-section .item14 .info p:first-child {
+        font-family: "Geomanist Light";
+        font-size: 30px;
+        line-height: 53px;
+        text-align: center;
+        display: inline-block;
+        float: left;
+        width: 52px;
+        height: 52px;
+        -wekit-border-radius: 50%;
+        border-radius: 50%;
+        background-color: #fa0001;
+        color: #fff; }
+      /* line 1554, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .process-section .item1 .info .title, .process-section .item2 .info .title, .process-section .item3 .info .title, .process-section .item4 .info .title, .process-section .item5 .info .title, .process-section .item6 .info .title, .process-section .item7 .info .title, .process-section .item8 .info .title, .process-section .item9 .info .title, .process-section .item10 .info .title, .process-section .item11 .info .title, .process-section .item12 .info .title, .process-section .item13 .info .title, .process-section .item14 .info .title {
+      margin: 10px 0 5px;
+      text-align: left;
+      padding-left: 10px;
+      display: inline-block;}
+      /* line 1559, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .process-section .item1 .info .process-desc, .process-section .item2 .info .process-desc, .process-section .item3 .info .process-desc, .process-section .item4 .info .process-desc, .process-section .item5 .info .process-desc, .process-section .item6 .info .process-desc, .process-section .item7 .info .process-desc, .process-section .item8 .info .process-desc, .process-section .item9 .info .process-desc, .process-section .item10 .info .process-desc, .process-section .item11 .info .process-desc, .process-section .item12 .info .process-desc, .process-section .item13 .info .process-desc, .process-section .item14 .info .process-desc {
+        margin: 0 0 23px;
+        font-size: 15px;
+        /*font-family: "Geomanist Bold";*/
+        padding-left: 60px; }
+  /* line 1568, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .material {
+    text-align: justify; }
+  /* line 1571, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-wrap .title {
+    padding-left: 0;
+    text-align: center; }
+  /* line 1575, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-type-desc {
+    text-align: left !important; }
+  /* line 1578, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .about-type-desc {
+    padding: 20% 0 0 0; }
+  /* line 1583, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .about-type-product-img {
+    width: 34%; }
+    /* line 1585, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .about-product .about-type-product-img .title {
+      text-align: left; }
+  /* line 1589, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .about-type-product-desc {
+    width: 66%; }
+  /* line 1592, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .footer-text {
+    padding: 0 15px;
+    text-align: left; }
+  /* line 1598, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-wrap div > img {
+    margin: auto; }
+  /* line 1604, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-procedure .intro-procedure-wrap .title {
+    font-size: 37px;
+    padding: 0 10% 30px; }
+  /* line 1608, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-procedure .intro-procedure-wrap .brand-title {
+    font-size: 140px; } }
+
+@media screen and (max-width: 730px) {
+  /* line 1615, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .cultural-section .filter-wrap .item .item-wrap img {
+    top: 30%; }
+  /* line 1618, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .title {
+    font-size: 36px;
+    line-height: 44px; }
+  /* line 1622, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner {
+    top: 2%; } }
+
+@media screen and (max-width: 680px) {
+  /* line 1627, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .banner-desc {
+    font-size: 14px;
+    margin: 0; } }
+
+@media screen and (max-width: 640px) {
+  /* line 1638, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .padding-l-15 {
+    padding-left: 7px !important; }
+  /* line 1643, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner {
+    top: 20px;
+    padding: 0 0; }
+    /* line 1645, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .banner .banner-process .intro-banner .title {
+      margin: 0;
+      font-size: 34px;
+      line-height: 35px; }
+    /* line 1651, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .banner .banner-process .intro-banner .banner-desc {
+      font-size: 18px;
+      padding: 0 16%;
+      margin: 5px 0; }
+  /* line 1659, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .alert-scroll p {
+    color: #fff; }
+  /* line 1667, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .material-product .material-product-wrap .title {
+    padding: 0 10%; }
+  /* line 1670, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .material-product .material-product-wrap .material-product-desc {
+    padding: 20px; }
+  /* line 1678, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .material-nutrition .material-nutrition-wrap .footer-desc {
+    padding: 40px 0 40px; }
+  /* line 1683, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .material-nutrition .material-nutrition-wrap .content .content-wrap .img-box {
+    background-color: #fff;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%; }
+    /* line 1688, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .material-nutrition .material-nutrition-wrap .content .content-wrap .img-box img {
+      max-width: 100%;
+      margin: auto;
+      width: auto; }
+  /* line 1694, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .material-nutrition .material-nutrition-wrap .content .content-wrap .content-detail {
+    width: 100%;
+    overflow: auto; }
+  /* line 1703, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-wrap {
+    padding-bottom: 22px; }
+    /* line 1705, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .intro-wrap .title {
+      margin-bottom: 27px; }
+    /* line 1708, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .intro-wrap strong {
+      font-size: 17px; }
+    /* line 1711, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .intro-wrap .intro-desc {
+      padding-top: 17px; }
+      /* line 1713, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .intro-wrap .intro-desc p {
+        font-size: 17px; }
+  /* line 1719, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .title {
+    margin-top: 32px;
+    margin-bottom: 22px; }
+  /* line 1724, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .about-pro-desc {
+    font-size: 18px;
+    padding: 0 0 55px;
+    margin: 0; }
+  /* line 1730, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .about-type-product-img .title {
+    font-size: 22px;
+    padding: 0;
+    margin: 0 0 22px 0; }
+  /* line 1737, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .about-type-product-desc .about-type-desc {
+    font-size: 17px;
+    padding: 90px 0 0 0; }
+  /* line 1743, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  /* them padding-right,left:0px; */
+  .about-product .about-product-item {
+    padding-left: 0px;
+    padding-right: 0px;
+  
+    margin-bottom: 45px; }
+  /* line 1746, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .footer-text {
+    font-size: 17px;
+    margin-bottom: 34px; }
+  /* line 1753, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-procedure .intro-procedure-wrap .brand-title {
+    top: 0;
+    margin: 0;
+    font-size: 120px; }
+  /* line 1758, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-procedure .intro-procedure-wrap .title {
+    padding: 0 17% 30px; }
+  /* line 1764, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .subcribe .subcribe-wrap {
+    padding: 20px 0 0; }
+    /* line 1766, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .subcribe .subcribe-wrap p {
+      padding: 0 12px;
+      font-size: 34px; }
+    /* line 1770, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .subcribe .subcribe-wrap .form-subcribe {
+      padding: 0 12px; }
+      /* line 1772, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .subcribe .subcribe-wrap .form-subcribe .form-groups {
+        width: 85%; }
+        /* line 1774, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .subcribe .subcribe-wrap .form-subcribe .form-groups input {
+          font-size: 16px; }
+      /* line 1779, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .subcribe .subcribe-wrap .form-subcribe .button-wrap {
+        padding-top: 56px;
+        padding-left: 21px;
+        overflow: hidden; }
+        .header .menu-mobile-wrap .mobile-menu .button-wrap .search-wrap .close-search {
+          bottom: 33%;
+        }
+        /* line 1783, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .subcribe .subcribe-wrap .form-subcribe .button-wrap button {
+          font-size: 54px; }
+  /* line 1791, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .container {
+    padding-left: 6px;
+    padding-right: 6px; }
+  /* line 1796, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .logo {
+    width: 100%;
+    padding-left: 12px; }
+  /* line 1800, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .copy-right {
+    padding: 0;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    padding-left: 12px;
+    font-size: 16px;
+    margin: 0;
+    text-align: left; }
+  /* line 1809, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .list-footer {
+    margin: 0;
+    padding: 8px 0 0 12px;
+    text-align: center; }
+    /* line 1813, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .footer .list-footer li {
+      line-height: 0;
+      padding-right: 10px;
+      display: inline; }
+      /* line 1818, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .footer .list-footer li:first-child {
+        border-right: 1px solid #626262; }
+      /* line 1821, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .footer .list-footer li a {
+        font-size: 16px;
+        text-transform: uppercase; }
+      /* line 1825, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .footer .list-footer li .list-social {
+        padding-top: 10px; }
+        /* line 1827, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .footer .list-footer li .list-social li {
+          border: none; }
+          /* line 1829, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+          .footer .list-footer li .list-social li a {
+            color: #a6a6a6;
+            text-transform: uppercase; }
+  /* line 1844, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .header .menu-mobile-wrap .mobile-menu .button-wrap .button-search {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 20px;
+    margin-top: 26px; }
+  /* line 1902, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .col-lg-1,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-md-1,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-sm-1,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-xs-1,
+  .col-xs-10,
+  .col-xs-11,
+  .col-xs-12,
+  .col-xs-2,
+  .col-xs-3,
+  .col-xs-4,
+  .col-xs-5,
+  .col-xs-6,
+  .col-xs-7,
+  .col-xs-8,
+  .col-xs-9 {
+/*    padding-left: 6px;
+    padding-right: 6px; */
+    } }
+
+@media screen and (max-width: 600px) {
+  /* line 1908, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .banner-desc {
+    display: none; }
+  /* line 1911, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .hidden-600 {
+    display: none; }
+  /* line 1914, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .title {
+    padding: 0 10%; }
+  /* line 1917, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-1 {
+    top: -164px; } }
+
+@media screen and (max-width: 580px) {
+  /* line 1922, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .subcribe .subcribe-wrap .form-subcribe .button-wrap {
+    padding-left: 0px; }
+  /* line 1925, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .control-section .control-intro-wrap .desc {
+    padding: 0 0px; }
+  /* line 1930, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .regulations-section .info {
+    text-align: justify; }
+  /* line 1933, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .regulations-section .item {
+    margin-bottom: 30px; }
+    /* line 1935, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .regulations-section .item .img-box {
+      margin: 14px 0 0;
+      position: static;
+      width: 100%; margin-bottom: 20px;}
+      /* line 1939, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .regulations-section .item .img-box img {
+        margin: auto; }
+    /* line 1943, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .regulations-section .item .info-item {
+      overflow: initial; }
+      /* line 1945, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .regulations-section .item .info-item .title {
+        padding-left: 0;
+        font-family: "Geomanist Medium";
+        font-size: 25px;
+        color: #fa0001;
+        margin-bottom: 8px;
+        margin-top: 0; }
+      /* line 1953, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .regulations-section .item .info-item .desc {
+        padding-left: 0;
+        margin-bottom: 8px; }
+  /* line 1964, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .border-sm {
+    border-bottom: 1px solid #a4a4a4; }
+  /* line 1967, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .title {
+    font-size: 36px;
+    margin: 31px 0 14px; }
+  /* line 1972, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-desc {
+    font-size: 17px;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 29px; }
+    /* line 1977, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-desc i {
+      width: 100%;
+      display: inline-block;
+      font-family: "Geomanist Medium";
+      font-size: 17px;
+      margin: 24px 0 23px; }
+  /* line 1985, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-intro-wrap {
+    padding-bottom: 34px; }
+    /* line 1988, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-intro-wrap .title-wrap {
+      background: transparent url(../images/kiemsoatsanxuat/bg-desc.png) no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 100%;
+      margin-top: 27px;
+      margin-bottom: 8px;
+      padding: 0px 20px; }
+      /* line 1996, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .title-wrap .title {
+        margin: 0; }
+    /* line 2000, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-intro-wrap .desc {
+      font-size: 17px;
+      text-align: center;
+      padding: 0 20px;
+      margin-bottom: 21px; }
+      /* line 2005, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .desc b {
+        margin: 15px 0;
+        display: inline-block; }
+    /* line 2010, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-intro-wrap .item {
+      background-color: #fff; }
+      /* line 2013, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .item .img-box {
+        padding: 24px 0 22px; }
+        /* line 2015, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .laboratory-section .laboratory-intro-wrap .item .img-box img {
+          margin: auto; }
+      /* line 2021, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .item .desc {
+        min-height: 180px;
+        padding: 0 20px 20px; }
+  /* line 2027, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-procedure-wrap {
+    padding-bottom: 20px; }
+    /* line 2029, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-procedure-wrap .title {
+      margin-top: 31px;
+      margin-bottom: 14px; }
+    /* line 2033, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-procedure-wrap .desc {
+      text-align: center;
+      padding: 0 26%;
+      margin-bottom: 61px; }
+    /* line 2038, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap {
+      padding-bottom: 10px;
+      margin: 23px 0 0; }
+      /* line 2042, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap li {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        font-family: "Geomanist Medium";
+        font-size: 14px; }
+        /* line 2047, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap li span {
+          float: left;
+          width: 50px;
+          height: 50px;
+          border: 2px solid #fa0001;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          text-align: center;
+          color: #fa0001;
+          font-family: "Geomanist Medium";
+          font-size: 25px;
+          line-height: 47px;
+          margin-right: 29px; }
+        /* line 2062, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap li p {
+          font-size: 17px;
+          padding-top: 16px;
+          margin-left: 60px; }
+  /* line 2075, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .title {
+    font-size: 35px;
+    margin: 0; }
+  /* line 2079, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .info {
+    margin: 36px 0 22px;
+    position: static;
+    padding: 0 20px;
+    background: #fff; }
+  /* line 2086, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .desc {
+    margin-top: 17px;
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 22px; }
+  /* line 2093, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .item {
+    position: relative; }
+    /* line 2097, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-product-wrap .item .img-box img {
+      width: 90%;
+      margin: auto; }
+  /* line 2104, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .staff {
+    padding-bottom: 55px; }
+    /* line 2106, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-product-wrap .staff .desc {
+      padding: 0 20px; }
+  /* line 2113, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-procedure .intro-procedure-wrap {
+    padding: 50px 0; }
+    /* line 2115, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .intro-procedure .intro-procedure-wrap .brand-title {
+      font-size: 100px; } }
+
+@media screen and (max-width:559px) {
+  .sub-menu-product {
+      position: relative;
+      overflow: hidden;
+  }
+  .sub-menu-product .sub-menu-content {
+      position: relative;
+      height:auto;
+  }
+  .sub-menu-product ul {
+      width: 100%;
+  }
+  .sub-menu-product ul li {
+      width: 100%;
+      border-bottom: 1px solid #eee;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  /* line 2122, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-1 {
+    width: 144px; }
+  /* line 2129, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .cultural-section .filter-wrap .item .item-wrap {
+    position: relative; }
+    /* line 2131, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section .filter-wrap .item .item-wrap img {
+      top: 28%; }
+  /* line 2140, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .logo {
+    width: 100%;
+    text-align: center; }
+    /* line 2143, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .footer .logo img {
+      margin: auto; }
+  /* line 2147, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .list-footer {
+    text-align: center; }
+  /* line 2150, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .copy-right {
+    padding: 0;
+    text-align: center; } }
+
+@media screen and (max-width: 520px) {
+  /* line 2159, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .about-type-product-img .title {
+    font-size: 20px; }
+  /* line 2162, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .subcribe .subcribe-wrap .form-subcribe .form-groups {
+    width: 100%; }
+  /* line 2165, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .title {
+    padding: 0 5%; }
+  /* line 2171, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .subcribe .subcribe-wrap .form-subcribe .button-wrap {
+    padding-top: 0px;
+    padding-left: 0px;
+    overflow: initial; }
+    /* line 2175, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .subcribe .subcribe-wrap .form-subcribe .button-wrap button {
+      padding-top: 0;
+      float: right;
+      font-size: 50px; }
+  /* line 2185, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .material-nutrition .material-nutrition-wrap .content {
+    padding: 0; } }
+
+@media screen and (max-width: 480px) {
+	
+	.intro-procedure .intro-procedure-wrap{    background-size: cover!important;background: url(../images/slide-footer.jpg);}
+	.filter-list-mobi{padding: 0 20px; width: 100%;display:block!important}
+  /* line 2191, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-1 {
+    width: 120px; }
+  /* line 2194, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  #sec1 .img-banner-2 {
+    width: 80px; }
+  /* line 2198, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner {
+    top: 50px; }
+  /* line 2206, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .cultural-section-details .side-bar .item {
+    float: left;
+    width: 100%;
+    margin-right: 2%; }
+    /* line 2210, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section-details .side-bar .item:last-child {
+      margin-right: 0; }
+    /* line 2213, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section-details .side-bar .item .item-wrap {
+      background-color: #fff; }
+      /* line 2214, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .side-bar .item .item-wrap img {
+        width: 100%;
+        margin: auto; }
+      /* line 2219, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section-details .side-bar .item .item-wrap .info {
+        padding: 0px; }
+        /* line 2221, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .cultural-section-details .side-bar .item .item-wrap .info .title {
+          display: block;
+          font-size: 25px;
+          margin: 23px 0 5px; }
+        /* line 2227, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .cultural-section-details .side-bar .item .item-wrap .info .desc {
+          margin-bottom: 27px;
+          display: block;
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        /* line 2236, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .cultural-section-details .side-bar .item .item-wrap .info .cate {
+          display: none;
+          font-family: "Geomanist Medium";
+          font-size: 15px;
+          color: #2f2f2f;
+          margin-bottom: 28px; }
+  /* line 2253, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .cultural-section .filter-list, .filter-list-mobi {
+    margin: 23px 0 23px; }
+	
+	.filter-list{display:none}
+    /* line 2255, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section .filter-list li {
+      margin-top: 9px;
+      margin-bottom: 9px; }
+  /* line 2262, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .cultural-section .filter-wrap .item .item-wrap {
+    position: relative; }
+    /* line 2264, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section .filter-wrap .item .item-wrap img {
+      position: static;
+      width: 100%; }
+    /* line 2269, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section .filter-wrap .item .item-wrap .info {
+      display: inline-block;
+      padding: 0 20px; }
+      /* line 2272, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section .filter-wrap .item .item-wrap .info .title {
+        font-size: 30px;
+        margin: 23px 0 5px; }
+      /* line 2276, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section .filter-wrap .item .item-wrap .info p {
+        margin-bottom: 5px;
+        padding-left: 0px; }
+      /* line 2280, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .cultural-section .filter-wrap .item .item-wrap .info .cate {
+        margin-left: 0px; }
+  /* line 2291, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .step-wrap .step-item {
+    min-height: auto; }
+  /* line 2297, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-procedure .intro-procedure-wrap {
+    padding: 20px 0; }
+    /* line 2299, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .intro-procedure .intro-procedure-wrap .brand-title {
+      font-size: 80px; }
+  /* line 2304, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .subcribe .subcribe-wrap .text-right .form-groups {
+    width: 100%; }
+  /* line 2307, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .subcribe .subcribe-wrap .text-right button {
+    margin: auto; }
+  /* line 2312, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .footer-wrap .logo {
+    margin: 0 0 20px 0; }
+  /* line 2315, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .footer-wrap .copy-right {
+    margin: 10px 0; }
+  /* line 2319, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .footer-wrap .col-mb-12 {
+    width: 100% !important;
+    margin: 10px 0; } }
+
+@media screen and (max-width: 440px) {
+  /* line 2328, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .title {
+    font-size: 25px; } }
+
+@media screen and (max-width: 430px) {
+  /* line 2333, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .regulations-section .container {
+    padding-left: 10px;
+    padding-right: 10px; }
+  /* line 2343, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .regulations-section .item .info-item .desc,
+  .intro-wrap .intro-desc p,
+  .about-product .footer-text,
+  .preserved-section .step-wrap .step-desc,
+  .preserved-section .info-desc,
+  .about-product .about-type-product-desc .about-type-desc {
+    font-size: 16px; }
+  /* line 2351, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-intro-wrap .desc b,
+  .contact-section .info,
+  .regulations-section .info,
+  .preserved-section .processing-wrap .preserved-desc,
+  .about-product .about-pro-desc {
+    font-size: 17px; }
+  /* line 2358, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .qa-content .comment .title,
+  .qa-content .rela-question .title,
+  .regulations-section .item .info-item .title,
+  .preserved-section .info-title {
+    font-size: 22px; }
+  /* line 2368, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .qa-content .title,
+  .laboratory-section .laboratory-product-wrap .title,
+  .laboratory-section .title,
+  .contact-section .title,
+  .control-section .title,
+  .regulations-section .title,
+  .preserved-section .title {
+    font-size: 28px; }
+  /* line 2371, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .qa-content .comment .title {
+    margin-bottom: 20px; }
+  /* line 2377, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .header .menu-mobile-wrap .mobile-menu .button-wrap {
+    height: 74px; }
+    /* line 2379, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .header .menu-mobile-wrap .mobile-menu .button-wrap .img-box {
+      padding-top: 15px; }
+      /* line 2381, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .header .menu-mobile-wrap .mobile-menu .button-wrap .img-box img {
+        width: 100px; }
+  /* line 2392, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-wrap .title {
+    font-size: 28px; }
+  /* line 2395, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .title {
+    font-size: 28px; }
+  /* line 2398, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .title {
+    padding: 0 3px; }
+  /* line 2415, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .process-section .item1 .info,
+  .process-section .item2 .info,
+  .process-section .item3 .info,
+  .process-section .item4 .info,
+  .process-section .item5 .info,
+  .process-section .item6 .info,
+  .process-section .item7 .info,
+  .process-section .item8 .info,
+  .process-section .item9 .info,
+  .process-section .item10 .info,
+  .process-section .item11 .info,
+  .process-section .item12 .info,
+  .process-section .item13 .info,
+  .process-section .item14 .info {
+    padding: 0; }
+	.process-section .item .info{margin-top: 50px!important;}
+    /* line 2417, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .process-section .item1 .info .title,
+    .process-section .item2 .info .title,
+    .process-section .item3 .info .title,
+    .process-section .item4 .info .title,
+    .process-section .item5 .info .title,
+    .process-section .item6 .info .title,
+    .process-section .item7 .info .title,
+    .process-section .item8 .info .title,
+    .process-section .item9 .info .title,
+    .process-section .item10 .info .title,
+    .process-section .item11 .info .title,
+    .process-section .item12 .info .title,
+    .process-section .item13 .info .title,
+    .process-section .item14 .info .title {
+      font-size: 28px;
+      padding-top: 9px; }
+    /* line 2421, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .process-section .item1 .info .process-desc,
+    .process-section .item2 .info .process-desc,
+    .process-section .item3 .info .process-desc,
+    .process-section .item4 .info .process-desc,
+    .process-section .item5 .info .process-desc,
+    .process-section .item6 .info .process-desc,
+    .process-section .item7 .info .process-desc,
+    .process-section .item8 .info .process-desc,
+    .process-section .item9 .info .process-desc,
+    .process-section .item10 .info .process-desc,
+    .process-section .item11 .info .process-desc,
+    .process-section .item12 .info .process-desc,
+    .process-section .item13 .info .process-desc,
+    .process-section .item14 .info .process-desc {
+      clear: both;
+      padding: 5px 0; }
+  /* line 2429, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .cultural-section-details .like-share ul li {
+    display: block;
+    width: 100%;
+    border: none; }
+    /* line 2433, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .cultural-section-details .like-share ul li:last-child {
+      padding: 10px 0; }
+  /* line 2439, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .step-wrap .step-item {
+    text-align: center; }
+    /* line 2441, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .preserved-section .step-wrap .step-item .step {
+      display: inline-block;
+      float: none;
+      margin: auto; }
+  /* line 2455, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-procedure .intro-procedure-wrap .title {
+    padding: 0 3% 30px;
+    font-size: 30px; }
+  /* line 2462, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .about-type-product-img {
+    width: 100%; }
+    /* line 2464, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .about-product .about-type-product-img .title {
+      text-align: center; }
+    /* line 2467, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .about-product .about-type-product-img img {
+      margin: auto; }
+  /* line 2471, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .about-type-product-desc {
+    width: 100%;
+    padding: 0; }
+    /* line 2474, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .about-product .about-type-product-desc .about-type-desc {
+      padding: 0; }
+  /* line 2478, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .footer-text {
+    padding: 0 6px;
+    text-align: left; }
+  /* line 2485, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .subcribe .subcribe-wrap p {
+    padding: 0 12px;
+    font-size: 26px; }
+  /* line 2489, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .subcribe .subcribe-wrap .form-subcribe {
+    padding: 0 12px; }
+    /* line 2491, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .subcribe .subcribe-wrap .form-subcribe .form-groups {
+      width: 100%; }
+    /* line 2494, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .subcribe .subcribe-wrap .form-subcribe .button-wrap {
+      clear: both;
+      padding-top: 0px;
+      padding-left: 0px;
+      overflow: hidden; }
+      /* line 2499, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .subcribe .subcribe-wrap .form-subcribe .button-wrap button {
+        font-size: 43px; } }
+
+@media screen and (max-width: 380px) {
+  /* line 2510, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner {
+    top: 20px; }
+  /* line 2513, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .material-nutrition .material-nutrition-wrap .content .content-wrap .content-detail .ul-detail li.item {
+    width: calc(100% / 3); }
+    /* line 2515, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .material-nutrition .material-nutrition-wrap .content .content-wrap .content-detail .ul-detail li.item:last-child {
+      width: 100%; }
+  /* line 2520, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .about-product .about-pro-desc {
+    padding: 0 0 10px; }
+  /* line 2527, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .list-footer {
+    padding: 0; }
+    /* line 2530, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .footer .list-footer li:first-child,
+    .footer .list-footer li:nth-child(2) {
+      width: 100%; }
+  /* line 2534, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .footer .copy-right {
+    font-size: 16px;
+    padding: 0;
+    text-align: center; }
+  /* line 2542, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-procedure .intro-procedure-wrap {
+    padding: 20px 0; }
+    /* line 2544, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .intro-procedure .intro-procedure-wrap .brand-title {
+      font-size: 70px; } }
+
+@media screen and (max-width: 350px) {
+  /* line 2551, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .title {
+    font-size: 20px;
+    line-height: 29px; } }
+
+@media screen and (max-width: 320px) {
+  /* line 2559, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .border-sm {
+    border-bottom: 1px solid #a4a4a4; }
+  /* line 2562, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .title {
+    font-size: 36px;
+    margin: 31px 0 14px; }
+  /* line 2567, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-desc {
+    font-size: 17px;
+    text-align: center;
+    padding: 0 0px;
+    margin-bottom: 29px; }
+    /* line 2572, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-desc i {
+      width: 100%;
+      display: inline-block;
+      font-family: "Geomanist Medium";
+      font-size: 17px;
+      margin: 24px 0 23px; }
+  /* line 2580, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-intro-wrap {
+    padding-bottom: 34px; }
+    /* line 2583, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-intro-wrap .title-wrap {
+      background: transparent url(../images/kiemsoatsanxuat/bg-desc.png) no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 100%;
+      margin-top: 27px;
+      margin-bottom: 8px;
+      padding: 0px 5px; }
+      /* line 2591, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .title-wrap .title {
+        margin: 0; }
+    /* line 2595, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-intro-wrap .desc {
+      font-size: 17px;
+      text-align: center;
+      padding: 0 20px;
+      margin-bottom: 21px; }
+      /* line 2600, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .desc b {
+        margin: 15px 0;
+        display: inline-block; }
+    /* line 2605, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-intro-wrap .item {
+      background-color: #fff; }
+      /* line 2608, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .item .img-box {
+        padding: 24px 0 22px; }
+        /* line 2610, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .laboratory-section .laboratory-intro-wrap .item .img-box img {
+          margin: auto; }
+      /* line 2616, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-intro-wrap .item .desc {
+        min-height: 180px;
+        padding: 0 20px 20px; }
+  /* line 2622, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-procedure-wrap {
+    padding-bottom: 20px; }
+    /* line 2624, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-procedure-wrap .title {
+      margin-top: 31px;
+      margin-bottom: 14px; }
+    /* line 2628, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-procedure-wrap .desc {
+      text-align: center;
+      padding: 0 26%;
+      margin-bottom: 61px; }
+    /* line 2633, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap {
+      padding-bottom: 10px;
+      margin: 23px 0 0; }
+      /* line 2637, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+      .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap li {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+        font-family: "Geomanist Medium";
+        font-size: 14px; }
+        /* line 2642, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap li span {
+          float: left;
+          width: 50px;
+          height: 50px;
+          border: 2px solid #fa0001;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          text-align: center;
+          color: #fa0001;
+          font-family: "Geomanist Medium";
+          font-size: 25px;
+          line-height: 47px;
+          margin-right: 29px; }
+        /* line 2657, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+        .laboratory-section .laboratory-procedure-wrap .laboratory-list-wrap li p {
+          font-size: 17px;
+          padding-top: 16px;
+          margin-left: 60px; }
+  /* line 2670, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .title {
+    font-size: 35px;
+    margin: 0; }
+  /* line 2674, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .info {
+    margin: 36px 0 22px;
+    position: static;
+    padding: 0 0px;
+    background: #fff; }
+  /* line 2681, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .desc {
+    margin-top: 17px;
+    padding: 0 0px;
+    text-align: center;
+    margin-bottom: 22px; }
+  /* line 2688, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .item {
+    position: relative; }
+    /* line 2692, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-product-wrap .item .img-box img {
+      width: 90%;
+      margin: auto; }
+  /* line 2699, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .laboratory-section .laboratory-product-wrap .staff {
+    padding-bottom: 55px; }
+    /* line 2701, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .laboratory-section .laboratory-product-wrap .staff .desc {
+      padding: 0 0px; }
+  /* line 2709, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .title {
+    font-size: 18px; }
+  /* line 2715, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .qa-content .pagination-wrap .pagination-list {
+    margin: 50px 0 23px;
+    text-align: center; }
+    /* line 2718, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .qa-content .pagination-wrap .pagination-list li {
+      width: 35px;
+      height: 35px;
+      line-height: 30px; }
+  /* line 2729, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .info-left .img-box,
+  .preserved-section .info-right .img-box {
+    float: left;
+    padding-right: 0px;
+    width: 100%; }
+    /* line 2734, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+    .preserved-section .info-left .img-box img,
+    .preserved-section .info-right .img-box img {
+      margin: auto; }
+  /* line 2738, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .info-left .info,
+  .preserved-section .info-right .info {
+    overflow: unset;
+    width: 100%; }
+  /* line 2745, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .preserved-intro-wrap .preserved-desc {
+    padding: 0px 5%; }
+  /* line 2749, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .step-wrap {
+    padding: 0 10px; }
+  /* line 2753, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .footer-desc {
+    padding: 0 10px;
+    margin: 40px 0 40px; }
+  /* line 2758, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .preserved-section .processing-wrap .preserved-desc {
+    padding: 0 10px; }
+  /* line 2763, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .material-nutrition .material-nutrition-wrap .content .content-wrap .content-detail .ul-detail li.item {
+    width: 100%; }
+  /* line 2768, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .intro-procedure .intro-procedure-wrap .title {
+    padding: 0 0 30px;
+    font-size: 25px; } }
+
+@media screen and (max-width: 300px) {
+  /* line 2776, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner .title {
+    line-height: 25px; }
+  /* line 2780, D:/laziweb/project/acecook/acecook/css/responsive.scss */
+  .banner .banner-process .intro-banner {
+    top: 9px; } }
+

@@ -1,0 +1,50 @@
+#home-container #news .short_desc { line-height: 26px; }
+.preserved-section .title, .laboratory-section .title, .control-section .title {
+    font-size: 35px !important;
+    margin: 30px 0 !important;
+}
+.material-nutrition .title {
+    margin: 30px 0 !important;
+}
+.lab-section {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.lab-section .wpb_content_element { margin-bottom: 0; }
+.lab-section .lab-content { padding-left: 50px; padding-right: 50px; }
+@media screen and (min-width:2400px) {
+    .intro-wrap .desc, .desc, .material-nutrition .desc, .control-section .control-procedure-wrap .control-list-wrap li, .intro-wrap .intro-desc p, .preserved-section .info-desc, body, .footer-desc .desc, .cultural-section .filter-wrap .item .item-wrap .info p, .qa-content .result-wrap .list-question li a, .qa-content .content-wrap p, .qa-content .rela-question ul li a, .laboratory-section .laboratory-desc i, .laboratory-section .laboratory-desc {
+        font-size: 22px !important;
+    }
+}
+@media screen and (min-width:1900px) and (max-width:2399px) {
+    .intro-wrap .desc, .desc, .material-nutrition .desc, .control-section .control-procedure-wrap .control-list-wrap li, .intro-wrap .intro-desc p, .preserved-section .info-desc, body, .footer-desc .desc, .cultural-section .filter-wrap .item .item-wrap .info p, .qa-content .result-wrap .list-question li a, .qa-content .content-wrap p, .qa-content .rela-question ul li a, .laboratory-section .laboratory-desc i, .laboratory-section .laboratory-desc {
+        font-size: 20px !important;
+    }
+}
+@media screen and (min-width:1600px) and (max-width:1899px) {
+    .intro-wrap .desc, .desc, .material-nutrition .desc, .control-section .control-procedure-wrap .control-list-wrap li, .intro-wrap .intro-desc p, .preserved-section .info-desc, body, .footer-desc .desc, .cultural-section .filter-wrap .item .item-wrap .info p, .qa-content .result-wrap .list-question li a, .qa-content .content-wrap p, .qa-content .rela-question ul li a, .laboratory-section .laboratory-desc i, .laboratory-section .laboratory-desc {
+        font-size: 18px !important;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1218px) {
+    .header .main-header .menu .main-menu .ul-main-menu li.li-main {
+        padding: 29px 6px 20px !important;
+    }
+    .header .top-header .menu-top-header li a, .header .top-header a {
+        font-size: 12px !important;
+    }
+    .header .main-header .menu .main-menu .ul-main-menu li.li-main .sub-menu ul li {
+        background: #FFF !important;
+        height: auto !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .lab-section .lab-content { padding-left: 10px; padding-right: 10px; padding-bottom: 10px; }
+    .lab-section .vc_row { margin-bottom: 40px; }
+}
+@media screen and (max-width: 430px) {
+    h3.title, .qa-content .title, .laboratory-section .laboratory-product-wrap .title, .laboratory-section .title, .contact-section .title, .control-section .title, .regulations-section .title, .preserved-section .title {
+        font-size: 26px !important;
+    }
+}

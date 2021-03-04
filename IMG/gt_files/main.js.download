@@ -1,0 +1,556 @@
+(function(w) {
+  // if the class is already set, we're good.
+  if (w.document.documentElement.className.indexOf("fonts-loaded") > -1) {
+    return;
+  }
+  var fontA = new w.FontFaceObserver("Geomanist Medium", {
+    weight: 400
+  });
+  var fontB = new w.FontFaceObserver("Geomanist Medium", {
+    weight: 700
+  });
+  w.Promise
+    .all([fontA.load(), fontB.load()])
+    .then(function() {
+      w.document.documentElement.className += " fonts-loaded";
+    });
+}(this));
+
+WebFontConfig = {
+  google: {
+    families: ['Roboto:500', 'Raleway:400', 'Lato:400,700,400italic']
+  }
+};
+
+(function(d) {
+  var wf = d.createElement('script'),
+    s = d.scripts[0];
+  wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+  wf.async = true;
+  s.parentNode.insertBefore(wf, s);
+})(document);
+
+jQuery(document).ready(function($) {
+
+  if($('.wpcf7').length > 0) {
+    var disableSubmit = false;
+    jQuery('input.wpcf7-submit[type="submit"]').click(function() {
+        jQuery(':input[type="submit"]').attr('value',"Sending...")
+        if (disableSubmit == true) {
+            return false;
+        }
+        disableSubmit = true;
+        return true;
+    })
+    var wpcf7Elm = document.querySelector( '.wpcf7' );
+    wpcf7Elm.addEventListener( 'wpcf7submit', function( event ) {
+        jQuery(':input[type="submit"]').attr('value',"send")
+        disableSubmit = false;
+    }, false );
+  }
+
+
+  // Nav Search
+  $('.btn-search').click(function(e) {
+    if ($('.search-box').hasClass('active')) {
+      $($(this).children('.fa')).addClass('fa-search');
+      $($(this).children('.fa')).removeClass('fa-times');
+    } else {
+      $($(this).children('.fa')).removeClass('fa-search');
+      $($(this).children('.fa')).addClass('fa-times');
+    }
+    $('.search-box').toggleClass('active');
+    $('.ul-main-menu').toggleClass('search-is-open');
+    e.stopPropagation();
+  });
+  $('.cse-search-submit').click(function() {
+    $('#cse_search').submit();
+  });
+  $('.close-search').click(function() {
+    $('.search-wrap').removeClass('active');
+  });
+  $('.search-box').click(function(e) {
+    e.stopPropagation();
+  });
+  $('.search-input').click(function(e) {
+    e.stopPropagation();
+  });
+  $(document).on('click', function(e) {
+    // $('.search-box').toggleClass('active');
+    // $('.ul-main-menu').toggleClass('search-is-open');
+    // $('.search-wrap').toggleClass('active');
+    e.stopPropagation();
+  });
+
+  $('.button-menu').click(function() {
+    if ($('.mobile-menu-list').is(":hidden")) {
+      $(".button-menu").addClass('open');
+    } else {
+      $(".button-menu").removeClass('open');
+    }
+    $('.mobile-menu-list').slideToggle(300);
+  });
+  $('.mobile-has-sub').click(function() {
+    $('.mobile-has-sub span.fa').removeClass('fa-angle-up').addClass(
+      'fa-angle-down');
+    $(this).removeClass('active');
+    if ($(this).find('.menu-sub-list').is(":hidden")) {
+      $(this).find('span.fa').removeClass('fa-angle-down').addClass(
+        'fa-angle-up');
+      $(this).addClass('active');
+    }
+    $(this).find('.menu-sub-list').slideToggle(300);
+  });
+  $('.button-search').click(function(e) {
+    $(this).parents('.button-wrap').find('.search-wrap').toggleClass(
+      'active');
+    e.stopPropagation();
+  });
+  $('.search-wrap').on('click', function(e) {
+    e.stopPropagation();
+  });
+
+  $('.search-box-menu').on('click', function(e) {
+    e.stopPropagation();
+  });
+
+  if ($('.filter-wrap').length > 0) {
+    $(window).load(function() {
+      var _grid = $('.filter-wrap').isotope({
+        // options
+      });
+      $('.filter-button-group').on('click', 'a', function() {
+        var filterValue = $(this).attr('data-filter');
+        _grid.isotope({
+          filter: filterValue
+        });
+      });
+    });
+
+    function DropDown(el) {
+      this.dd = el;
+      this.placeholder = this.dd.children('span');
+      this.opts = this.dd.find('.dropdown a');
+      this.val = '';
+      this.index = -1;
+      this.initEvents();
+    }
+    DropDown.prototype = {
+      initEvents: function() {
+        var obj = this;
+
+        obj.dd.on('click', function(event) {
+          $(this).toggleClass('active');
+          return false;
+        });
+
+        obj.opts.on('click', function() {
+          var opt = $(this);
+          obj.val = opt.text();
+          obj.index = opt.index();
+          obj.placeholder.text(obj.val);
+        });
+      },
+      getValue: function() {
+        return this.val;
+      },
+      getIndex: function() {
+        return this.index;
+      }
+    }
+    $(function() {
+      var dd = new DropDown($('#dd'));
+    });
+  }
+
+  // Discover Widget
+  if ($(window).width() > 767 && $('#discover-widget').length) {
+    $('#discover-widget').parallax({
+      imageSrc: acv.theme_uri + '/assets/images/slide-footer.jpg',
+      bleed: 10
+    });
+  }
+
+  // VC Element: Ajax Content Tab
+  if ($('#filters').length > 0) {
+    // set active item based on default id
+    if ($('#filters').data('defaultid') !== "") {
+      var active_id = $('#filters').data('defaultid');
+      var item = $(".filter-items").find(`[data-catid='${active_id}']`);
+      item.addClass('active');
+    } else {
+      $(".filter-items .item:first-child").addClass('active');
+    }
+
+    // default tab content
+    loadPostsAjax($('#filters').data('defaultid'), 1);
+
+    // on click on other tabs
+    $(document).on('click', '.filter-items .item', function(event) {
+      $('.col-sm-4.wrapper').fadeOut("slow");
+      $('.filter-items .item.active').removeClass('active');
+      $(this).addClass('active');
+      event.preventDefault();
+      loadPostsAjax($(this).data('catid'), 1);
+    });
+  }
+  // VC Element: Activities Widget
+  if ($('body').hasClass('hoat-dong-xa-hoi') || $('body').hasClass(
+      'our-social-activities')) {
+    loadActivities(1);
+  }
+
+
+  // scroll top button
+  $('.sticky-scroll-top').on('click', function() {
+    $('html, body').animate({
+      scrollTop: 0
+    }, 'slow');
+  });
+
+  $(window).on('scroll', function() {
+    var scrollPos = $(window).scrollTop();
+    if (scrollPos > 0 && $('.sticky-scroll-top').hasClass('hidden')) {
+      $('.sticky-scroll-top').removeClass('hidden');
+    } else if (scrollPos == 0) {
+      $('.sticky-scroll-top').addClass('hidden');
+    }
+  });
+  // end scroll top button
+
+  // TVC popup
+  $(function() {
+    $('#mediaItems').on('click', '.tvc-item', function() {
+      var link = $(this).data('tvc');
+      $('#tvcModal iframe').attr('src', link + "?autoplay=1");
+      $('#tvcModal').modal();
+    });
+    $('#tvcModal').on('hidden.bs.modal', function() {
+      var src = $('#tvcModal iframe').attr('src');
+      src = src.replace('?autoplay=1', '?autoplay=0');
+      $('#tvcModal iframe').attr('src', src);
+    })
+  });
+
+  // Goc Am Thuc TVC
+  $(function() {
+    $('.list_food').on('click', '.tvc-item', function() {
+      var link = $(this).data('tvc');
+      $('#tvcModal iframe').attr('src', link + "?autoplay=1");
+      $('#tvcModal').modal();
+    });
+    $('#tvcModal').on('hidden.bs.modal', function() {
+      var src = $('#tvcModal iframe').attr('src');
+      src = src.replace('?autoplay=1', '?autoplay=0');
+      $('#tvcModal iframe').attr('src', src);
+    })
+  });
+
+  // Goc Am Thuc TVC
+  $(function() {
+    $('#culinary-widget').on('click', '.tvc-item', function() {
+      var link = $(this).data('tvc');
+      $('#tvcModal iframe').attr('src', link + "?autoplay=1");
+      $('#tvcModal').modal();
+    });
+    $('#tvcModal').on('hidden.bs.modal', function() {
+      var src = $('#tvcModal iframe').attr('src');
+      src = src.replace('?autoplay=1', '?autoplay=0');
+      $('#tvcModal iframe').attr('src', src);
+    })
+  });
+
+  // other products widget
+  if ($('.owl-category').length > 0) {
+    $('.owl-category').owlCarousel({
+      //slideSpeed: 900,
+      //paginationSpeed: 900,
+      //loop: true,
+      navigation: true,
+      items: 4,
+      animateOut: 'fadeOut',
+      dots: false,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      loop: true,
+      navigationText: [
+        "<i class='fa fa-angle-left' aria-hidden='true'></i>",
+        "<i class='fa fa-angle-right' aria-hidden='true'></i>"
+      ],
+      itemsCustom: [
+        [0, 2],
+        [450, 3],
+        [600, 3],
+        [700, 4],
+        [1000, 4],
+        [1200, 4],
+        [1400, 4],
+        [1600, 4]
+      ],
+    });
+  }
+
+  // Tham Quan Nha May - Video Button Behavior
+  if ($('body').hasClass('tham-quan-nha-may') || $('body').hasClass(
+      'visit-factory')) {
+    $('#play-button').on('click', function() {
+      $(this).hide();
+    })
+  };
+
+  if ($('body').hasClass('danh-hieu-giai-thuong') || $('body').hasClass(
+      'honors-and-awards')) {
+    $('.vc_single_image-wrapper').each(function() {
+      var img_src = $(this).find('img').attr('src');
+      $(this).darkTooltip({
+        animation: 'flipIn',
+        gravity: 'south',
+        size: 'large',
+        theme: 'light',
+        content: '<img src="' + img_src + '" />',
+      });
+    })
+  };
+
+  // Mon An
+  if ($('body').hasClass('single-mon-an')) {
+    $('#recipeSlides').lightSlider({
+      gallery: true,
+      item: 1,
+      auto: true,
+      pauseOnHover: true,
+      loop: true,
+      thumbItem: 9,
+      slideMargin: 0,
+      enableDrag: false,
+      currentPagerPosition: 'left',
+      onSliderLoad: function(el) {
+        el.lightGallery({
+          selector: '#recipeSlides .lslide'
+        });
+      }
+    });
+  }
+
+  if ($('.list_food.culinary').length > 0) {
+    $('.col-sm-4').matchHeight();
+  }
+
+
+  // Quy Trinh San Xuat
+  if ($('body').hasClass('quy-trinh-san-xuat') || ($('body').hasClass(
+      'production-process') && $('body').hasClass('page-template-default'))) {
+    if ($('#play-button').length > 0) {
+      $('#play-button').on('click', function() {
+        $(this).hide();
+        $('h3.title, p.banner-desc').hide();
+      })
+    }
+
+    $('div.step-menu ul>li>a[href*="#"]:not([href="#"])').click(function() {
+
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(
+          /^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(
+          1) + ']');
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top + 5
+          }, 1000);
+          return false;
+        }
+      }
+    });
+
+    var stepMenu = '.step-menu';
+
+    var offset = $('#sec1').offset().top;
+    // var offsetSub = $('.subcribe').offset().top;
+    var offsetSub = $('.footer').offset().top;
+
+    var duration = 500;
+    // var pos=$('.subcribe').height() + $('.footer').height() +10;
+    var pos = $('.footer').height() + 10;
+    var lastScrollPos = 0;
+    jQuery(window).scroll(function() {
+
+      if (jQuery(this).scrollTop() >= offset - 10) {
+        jQuery(stepMenu).fadeIn(duration);
+      } else {
+        jQuery(stepMenu).fadeOut(duration);
+      }
+
+      if (jQuery(this).scrollTop() + $(window).height() >= offsetSub) {
+        $('.step-menu').css({
+          bottom: pos + "px",
+          top: 'initial'
+        });
+      } else {
+        $('.step-menu').css({
+          top: '20%',
+          bottom: 'initial'
+        });
+      }
+
+      var scrollPos = $(window).scrollTop() + 250;
+      var target;
+      $('.step-menu ul li a').each(function() {
+        var currLink = $(this);
+        target = currLink.attr('href');
+        var refElement = $(target);
+        if (refElement.position().top <= scrollPos && refElement.position()
+          .top + refElement.height() > scrollPos) {
+          $('.step-menu ul li').removeClass('active');
+          currLink.parents('li').addClass('active');
+
+          refElement.addClass('active');
+
+        } else {
+          currLink.parents('li').removeClass('active');
+        }
+      });
+      lastScrollPos = scrollPos;
+    });
+    $(window).enllax();
+    $('#sec12').addClass('active');
+  }
+
+  // Cong bo san pham
+  if ($('body').hasClass('tax-danh-muc-cong-bo')) {
+    $('.announce-item-wrap').matchHeight();
+    $('.openAnnouncementGallery').on('click', function(e) {
+      e.preventDefault();
+      var gallery_data = $(this).data('gal');
+      console.log(gallery_data);
+      $(this).lightGallery({
+          dynamic: true,
+          dynamicEl: gallery_data
+      })
+
+    })
+  }
+
+  // customize default wp pagenavi links for ajax activities
+  function customizePageNavi() {
+    if ($('.wp-pagenavi').length > 0) {
+      $('.wp-pagenavi a').each(function() {
+
+        // get the page ids in default links, and remove default href
+        var href = $(this).attr('href');
+        var href_string = href.split('=');
+        var page_id = href_string[1];
+
+        // get active term id
+        var active_nav_data = $('.item.active').data('catid');
+
+        $(this).attr('href', '#');
+        $(this).on('click', function(event) {
+          event.preventDefault();
+          loadPostsAjax(active_nav_data, page_id);
+        });
+      });
+    }
+  }
+
+  function customizePageNaviSimple() {
+    if ($('.wp-pagenavi').length > 0) {
+      $('.wp-pagenavi a').each(function() {
+
+        // get the page ids in default links, and remove default href
+        var href = $(this).attr('href');
+        var href_string = href.split('=');
+        var page_id = href_string[1];
+
+        $(this).attr('href', '#');
+        $(this).on('click', function(event) {
+          event.preventDefault();
+          loadActivities(page_id);
+        });
+      });
+    }
+  }
+
+  function loadPostsAjax(id, page) {
+    var resultwrap = $('#mediaItems .row');
+    var loading_icon = $('#load-ani');
+    var lang = 'vi';
+    if ($('body').hasClass('en')) {
+      lang = 'en';
+    }
+    loading_icon.show();
+    $.ajax({
+      url: acv_ajax_object.ajax_url,
+      type: 'POST',
+      data: {
+        action: 'bf_posts_tab',
+        query_vars: acv_ajax_object.query_vars,
+        defaultid: id,
+        pageid: page,
+        lang: lang
+      },
+      beforeSend: function() {
+        resultwrap.hide();
+        resultwrap.html('');
+        $('html, body').animate({
+          scrollTop: $('#filters').offset().top
+        }, 'slow');
+      },
+      success: function(result) {
+        resultwrap.append(result);
+        resultwrap.fadeIn("slow");
+        loading_icon.fadeOut("fast");
+        customizePageNavi();
+      }
+    });
+  }
+
+  function loadActivities(page) {
+    var resultwrap = $('#mediaItems .row');
+    var loading_icon = $('#load-ani');
+    var lang = 'vi';
+    if ($('body').hasClass('en')) {
+      lang = 'en';
+    }
+    loading_icon.show();
+    $.ajax({
+      url: acv_ajax_object.ajax_url,
+      type: 'POST',
+      data: {
+        action: 'bf_activities_widget',
+        pageid: page,
+        lang: lang
+      },
+      beforeSend: function() {
+        resultwrap.hide();
+        resultwrap.html('');
+        $('html, body').animate({
+          scrollTop: $('#media-contents').offset().top
+        }, 'slow');
+      },
+      success: function(result) {
+        resultwrap.append(result);
+        resultwrap.fadeIn("slow");
+        loading_icon.fadeOut("fast");
+        customizePageNaviSimple();
+      }
+    });
+  }
+});
+
+jQuery(function ($) {
+
+  $('.wpcf7-form').submit(function() {
+
+    $("#waiting_popup").modal("show");
+    setTimeout(function() {
+        $('#waiting_popup').modal('hide');
+    }, 5000);
+
+  });
+
+  $(".icon-show-media-mobile").click(function(){
+    $(".icon-bar").toggle();
+  });
+
+});
